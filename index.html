@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>White Rabbit</title>
+	<style>
+		body {
+			background-color: white;
+		}
+	</style>
+</head>
+<body>
+
+	<div id="intro-text">
+
+		<div>W H I T E</div>
+		<div>//</div>
+		<div>R A B B I T</div>
+
+	</div>
+	
+	<div id="test-div">Another div</div>
+
+	<script src="jquery.js"></script>
+
+	<script>
+
+		$(document).ready(function (){
+			
+			$("#intro-text").click(function() {
+				$("#intro-text").fadeOut(1500);
+			});
+
+			$("#test-div").click(function() {
+				alert("test divy");
+			});
+
+		});
+
+	</script>
+
+	
+</body>
+
+<style>
+
+	#intro-text {
+		margin: auto;
+		text-align: center;
+		font-size: 100px;
+	    width: 40%;
+	    padding: 400px;
+	}
+
+	#test-div {
+		display: none;
+	}
+	
+</style>
+
+
+
+
+</html>
+
